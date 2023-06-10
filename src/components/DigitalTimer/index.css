@@ -1,0 +1,150 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, white, #cffcf1, #defafe);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.row-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.time-state {
+  font-size: 15px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+.timer {
+  font-size: 22px;
+  color: #00d9f5;
+  font-weight: 700;
+}
+
+.cont {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+}
+
+.mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  align-items: center;
+}
+
+.time-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-img {
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+}
+
+.btn-text {
+  font-size: 15px;
+  color: #0f172a;
+  font-weight: 600;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.btn {
+  background-color: transparent;
+  height: 20px;
+  width: 30px;
+  border-width: 0px;
+}
+
+.p {
+  font-size: 10px;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.symbol {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #00d9f5;
+  width: 42px;
+  height: 25px;
+  border-radius: 8px;
+}
+
+.time {
+  font-size: 15px;
+  color: #0f172a;
+  font-weight: 600;
+}
